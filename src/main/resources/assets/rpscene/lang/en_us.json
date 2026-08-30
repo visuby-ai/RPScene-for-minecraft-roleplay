@@ -1,0 +1,23 @@
+{
+  "key.categories.rpscene": "RP Scene",
+  "key.rpscene.inspect": "Inspect Scene",
+
+  "gui.rpscene.details.title": "RP SCENE",
+  "gui.rpscene.details.created_by": "Created By:",
+  "gui.rpscene.details.type": "Type:",
+  "gui.rpscene.details.created": "Created:",
+  "gui.rpscene.details.remaining": "Remaining Time:",
+  "gui.rpscene.details.permanent": "Permanent",
+  "gui.rpscene.details.close": "Close",
+  "gui.rpscene.details.remove": "Remove",
+
+  "commands.rpscene.do.usage": "Usage: /scene create [type] [duration] <message>",
+  "commands.rpscene.do.created": "Scene created.",
+  "commands.rpscene.ooc.removed": "OOC message removed.",
+  "commands.rpscene.scene.removed": "Scene removed.",
+  "commands.rpscene.scene.not_found": "No scene found with that UUID.",
+  "commands.rpscene.scene.no_permission": "You do not have permission to remove this scene.",
+  "commands.rpscene.scene.list_header": "Nearby scenes (%s):",
+  "commands.rpscene.scene.list_entry": "%s %s - %s (by %s)",
+  "commands.rpscene.scene.list_empty": "No nearby scenes found."
+}

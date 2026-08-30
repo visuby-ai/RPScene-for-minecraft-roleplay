@@ -1,0 +1,55 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "./gradlew",
+            "args": ["build"],
+            "windows": {
+                "command": "gradlew.bat",
+                "args": ["build"]
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gradle"]
+        },
+        {
+            "label": "genVSCodeRuns",
+            "type": "shell",
+            "command": "./gradlew",
+            "args": ["genVSCodeRuns"],
+            "windows": {
+                "command": "gradlew.bat",
+                "args": ["genVSCodeRuns"]
+            },
+            "problemMatcher": ["$gradle"]
+        },
+        {
+            "label": "runClient",
+            "type": "shell",
+            "command": "./gradlew",
+            "args": ["runClient"],
+            "windows": {
+                "command": "gradlew.bat",
+                "args": ["runClient"]
+            },
+            "group": "test",
+            "problemMatcher": ["$gradle"]
+        },
+        {
+            "label": "runServer",
+            "type": "shell",
+            "command": "./gradlew",
+            "args": ["runServer"],
+            "windows": {
+                "command": "gradlew.bat",
+                "args": ["runServer"]
+            },
+            "group": "test",
+            "problemMatcher": ["$gradle"]
+        }
+    ]
+}
